@@ -298,7 +298,7 @@ footer .fa{
 }    
 
 .espacioblanco img{
-        display:none;
+       /* display:none;*/
 }
 
 #textareaoutput{
@@ -369,7 +369,7 @@ display:none;
     }    
     
     .espacioblanco img{
-            display:none;
+            /*display:none;*/
     }
     
     #textareaoutput{
