@@ -1,0 +1,18 @@
+-Titulo Sitio Web.LISTO
+-Campo para el texto que va a ser encriptado/desencriptado: se puede usar un textarea o input.LISTO
+-Un boton para encriptar.LISTO
+-Un boton para desencriptar.LISTO
+-Area para mostrar texto encriptado/ desencriptado.LISTO
+-Un pie de pagina con los datos de la persona que desarrollo el sitio web.LISTO
+-boton que copie el texto encriptado/desencriptado.LISTO
+
+Las llaves de encriptación serán:
+"a" se convierte en "ai"
+"e" se convierte en "enter"
+"i" se convierte en "imes"
+"o" se convierte en "ober"
+"u" se convierte en "ufat"
+
+-Debe funcionar solo con letras minusculas, es decir, NO encriptar con letra mayusculas
+-No deben ser utilizadas letras con acentos ni caracteres especiales. Crear patron que no incluya letras ni numeros y si detecta algo no alfanumerico que arroje una sweetalert
+-mensaje secreto:fenterlimescimesdaidenters poberr enternfrenterntair enterstenter dentersaifimesober y haibenterrlober cobernclufatimesdober cobern enterximestober
