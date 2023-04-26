@@ -16,13 +16,10 @@ flex-direction: row;
 .contenedor-izq{
     flex:70%;
     background: #e5e5e5;
-    
-    
+
     }
 
 .contenedorlimpiar{
-display:flex;
-flex-direction: column;
 position: relative;
 width:60%;
 margin:0 0 0 25%;
@@ -30,13 +27,11 @@ margin:0 0 0 25%;
 
 
 #limpiar{
-     
     position: absolute;
     padding: 0;
     background: darkblue;
     color:white;
     font-weight: 700;
-    
 }
 
 #limpiar:hover{
@@ -46,7 +41,7 @@ margin:0 0 0 25%;
     transform: scale(1.1);
 }
 #textareainput{
-
+width:100%;
 border:2px solid black;
 border-radius: 15px;
 box-shadow: 10px 10px 10px black;
@@ -68,14 +63,14 @@ font-size: 32px;
     width:60%;
     margin:20px 0 50px 25%;
     display: flex;
-    flex-direction:row; 
-    justify-content:center;
+    flex-direction:row;
+    justify-content: space-between; 
+    
 }
 
 .botones input{
-    
-    width:50%;
-    height: 45px;
+    flex:0 0 45%;
+    padding: 15px;
     border:1px solid darkblue;
     border-radius: 10px;
     
@@ -86,7 +81,7 @@ font-size: 32px;
     background:darkblue;
     color: white;
     font-weight: 700;
-    margin:0 10px 0 0;
+    
 }
 
 #encriptar:hover{
@@ -114,13 +109,14 @@ font-size: 32px;
 .contenedor-der{
     flex:30%;
     background: #e5e5e5;
-
+    padding:0 2% 0 2%;
+    display: flex;
+    align-items: center;
     }
 
 .espacioblanco{
-    
+
     background: white;
-    margin:10px 40px 0px 10px;
     height:90%;
     border:1px solid black;
     border-radius: 15px;
@@ -157,19 +153,21 @@ font-size: 32px;
 }
 
 #textareaoutput{
-    margin:10px 5px 0px 5px;
+    width: 90%;
+    margin: 10% 5% 0 5%;
     resize: none;
     font-size: 24px;
     height: 80%;
+    border:1px solid black;
     display:none;
+    
 }
-
 #copiar{
     background: #D8DFE8;
     color: darkblue;
     width: 80%;
     font-weight: 700;
-    margin:10px 10% 20px 10%;
+    margin:0 10% 10% 10%;
     height: 45px;
     border:1px solid darkblue;
     border-radius: 10px;
@@ -275,8 +273,8 @@ footer .fa{
 }
 
 .contenedorlimpiar{
-    width:90%;
-    margin:10% 5% 0 5%;
+   width:90%;
+   margin:10% 5% 0 5%;
     }      
 
 
@@ -288,18 +286,17 @@ footer .fa{
 .botones{
     width:90%;
     margin:20px 5% 0 5%;
-    display: flex;
-    justify-content:space-between;
+
+    
 }
 
 .espacioblanco{
     margin:30px 5% 30px 5%;
     justify-content: space-between;/*center before click, space-between despues click*/
+    flex:100%;
 }    
 
-.espacioblanco img{
-       /* display:none;*/
-}
+
 
 #textareaoutput{
 display:none;
@@ -320,7 +317,9 @@ display:none;
         background: #e5e5e5;
         
     }
-    
+    .espacioblanco{
+        width:90%;
+    }
     .contenedor-der{
             flex:100%;
             background: #e5e5e5;    
@@ -345,11 +344,10 @@ display:none;
         display:flex;
         flex-direction:column; 
         justify-content: flex-start;
-        align-items:center;
-
     }
     .botones input{
-        width:100%;
+        flex:100%;
+        padding:15px;
         
     }
 
@@ -366,15 +364,19 @@ display:none;
     .espacioblanco{
         margin:30px 5% 30px 5%;
         justify-content: space-between;/*center before click, space-between despues click*/
+        flex:100%;
     }    
     
-    .espacioblanco img{
-            /*display:none;*/
-    }
-    
-    #textareaoutput{
-    display:none;
-    }
 
+    #textareaoutput{
+        width: 90%;
+        margin: 5% 5% 5% 5%;
+        resize: none;
+        font-size: 24px;
+        height: 50%;
+        border:1px solid black;
+        display:none;
+        
+    }
 
 }
