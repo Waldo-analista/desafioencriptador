@@ -115,7 +115,7 @@ font-size: 32px;
     }
 
 .espacioblanco{
-
+    flex:100%;
     background: white;
     height:90%;
     border:1px solid black;
